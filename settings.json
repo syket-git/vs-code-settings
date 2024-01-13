@@ -1,0 +1,53 @@
+{
+  "editor.fontFamily": "Dank Mono",
+  // "editor.fontFamily": "Fragment Mono",
+  // "editor.fontWeight": "bold",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 18,
+  "editor.lineNumbers": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "editor.cursorBlinking": "expand",
+  "editor.find.cursorMoveOnType": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Dark Magic Themes",
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 1,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  }
+}
